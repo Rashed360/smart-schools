@@ -1,7 +1,9 @@
 module.exports = {
-	content: ['./src/components/*.jsx', './src/pages/*.jsx'],
+	content: ['./src/components/*.jsx', './src/pages/*.jsx', './public/index.html'],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: {},
+		},
 		fontFamily: {
 			pops: 'Poppins',
 			lato: 'Lato',
